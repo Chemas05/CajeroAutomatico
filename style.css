@@ -1,0 +1,132 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(#2e66b1, #f8f6f6);
+}
+
+
+#login  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, .5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+}
+
+#loginform {
+    position: relative;
+    
+}
+
+
+#login label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+
+#login input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+#login input::placeholder {
+    font-family: 'Overpass', sans-serif;
+    color: #E4E4E4;
+}
+
+#login button {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #b79726;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px
+}
+
+.balance {
+
+    width: 30%;
+    height: 300px;
+    border: none;
+    background-color: #faf7f7;
+    border-radius: 15px;
+
+}
+
+.balance p {
+    text-align: center;
+    margin: 1em;
+    color: black;
+
+}
+
+.balance h5 {
+    color: #030000;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.button-balance {
+    display: flex;
+    justify-content: center;
+}
+
+input[type] {
+    margin-left: 30px;
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+.balance button {
+    margin: 10px;
+    background-color: #ffff;
+    border: none;
+    color: black;
+    width: 50%;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.information {
+    text-align: center;
+    width: 90%;
+    height: 150px;
+    margin-left: 50px;
+    border-radius: 15px;
+    color: #080000;
+}
